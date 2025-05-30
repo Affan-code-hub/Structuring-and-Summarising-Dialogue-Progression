@@ -1,7 +1,7 @@
 import streamlit as st
-from dialogue_summariser.classifier import classify_dialogue
-from dialogue_summariser.summariser import generate_summary
-from dialogue_summariser.utils import visualise_dialogue_flow
+from classifier import classify_dialogue
+from summariser import generate_summary
+from utils import visualise_dialogue_flow
 
 def parse_uploaded_file(uploaded_file):
     lines = []
